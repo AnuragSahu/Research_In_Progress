@@ -15,16 +15,16 @@ Then followed by that we got started with the basics of liner algebra,
 	- Cross Product.
 
 - <b> Norm is a function that takes a vector and returns a non-negetive number. It satisfies the following four Properties:
-	- positivity : length(x) >= 0
-	- Definiteness : length(x) = 0 if and only if x = 0;
-	- Absolutely homogeneous : length(\alpha x) = length(\alpha)length(x)
-	- Triangle inequality : length(x + y) <= length(x) + length(y)
+	- positivity :  norm(x) >= 0
+	- Definiteness : norm(x) = 0 if and only if x = 0;
+	- Absolutely homogeneous : norm(\alpha x) = norm(\alpha)norm(x)
+	- Triangle inequality : norm(x + y) <= norm(x) + norm(y)
 </b>
 
 - There are many types of norm :
-	- L2 norm or Eucldean norm : length(x)<sub>2</sub> = sqrt(x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> + x<sub>3</sub><sup>2</sup> .... x<sub>n</sub><sup>2</sup>)
-	- L1 or Manhattan norm : length(x)<sub>1</sub>  sum i = 1 : n length(x<sub>i</sub>)
-	- Infinity norm: length(x<sub>infinity</sub>) = max<sub>i</sub>length(x<sub>i</sub>)
-	- p-norm : length(x<sub>p</sub>) = (length(x<sub>1</sub>)<sup>p</sup> + length(x<sub>2</sub>)<sup>p</sup> + ... + length(x<sub>n</sub>)<sup>p</sup>)<sup>1/p</sup>>
+	- L2 norm or Eucldean norm : norm(x)<sub>2</sub> = sqrt(x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> + x<sub>3</sub><sup>2</sup> .... x<sub>n</sub><sup>2</sup>)
+	- L1 or Manhattan norm : norm(x)<sub>1</sub>  sum i = 1 : n norm(x<sub>i</sub>)
+	- Infinity norm: norm(x<sub>infinity</sub>) = max<sub>i</sub>norm(x<sub>i</sub>)
+	- p-norm : norm(x<sub>p</sub>) = (norm(x<sub>1</sub>)<sup>p</sup> + norm(x<sub>2</sub>)<sup>p</sup> + ... + norm(x<sub>n</sub>)<sup>p</sup>)<sup>1/p</sup>
 
 - 
