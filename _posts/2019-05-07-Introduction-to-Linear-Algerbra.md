@@ -14,12 +14,9 @@ Then followed by that we got started with the basics of liner algebra,
 	- Dot Product.
 	- Cross Product.
 
-- <b> Norm is a function that takes a vector and returns a non-negetive number. It satisfies the following four Properties:
-	- positivity :  norm(x) >= 0
-	- Definiteness : norm(x) = 0 if and only if x = 0;
-	- Absolutely homogeneous : norm(\alpha x) = norm(\alpha)norm(x)
-	- Triangle inequality : norm(x + y) <= norm(x) + norm(y)
-</b>
+- Norm is a function that takes a vector and returns a non-negetive number. It satisfies the following four Properties:
+	![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/normConditions.png)
+	
 
 - There are many types of norm :
 	![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/normTypes.png)
