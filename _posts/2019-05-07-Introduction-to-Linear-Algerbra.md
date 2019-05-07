@@ -22,4 +22,4 @@ Then followed by that we got started with the basics of liner algebra,
 </b>
 
 - There are many types of norm :
-	![Alt Text](/screenshots/normTypes.png?raw=true "Title")
+	![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/normTypes.png)
