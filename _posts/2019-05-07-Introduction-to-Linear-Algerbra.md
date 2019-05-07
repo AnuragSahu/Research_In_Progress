@@ -22,9 +22,4 @@ Then followed by that we got started with the basics of liner algebra,
 </b>
 
 - There are many types of norm :
-	- L2 norm or Eucldean norm : norm(x)<sub>2</sub> = sqrt(x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> + x<sub>3</sub><sup>2</sup> .... x<sub>n</sub><sup>2</sup>)
-	- L1 or Manhattan norm : norm(x)<sub>1</sub>  sum i = 1 : n norm(x<sub>i</sub>)
-	- Infinity norm: norm(x<sub>infinity</sub>) = max<sub>i</sub>norm(x<sub>i</sub>)
-	- p-norm : norm(x<sub>p</sub>) = (norm(x<sub>1</sub>)<sup>p</sup> + norm(x<sub>2</sub>)<sup>p</sup> + ... + norm(x<sub>n</sub>)<sup>p</sup>)<sup>1/p</sup>
-
-- 
+	![Alt Text](/screenshots/normTypes.png)
