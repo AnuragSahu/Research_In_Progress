@@ -20,3 +20,15 @@ Then followed by that we got started with the basics of liner algebra,
 
 - There are many types of norm :
 	![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/normTypes.png)
+
+- Inner Product, Inner producct is a fucntions that takes two vector space and return a real number, the function need to satisfy five proterties:
+	- Positivity : <x,x> >= 0
+	- Definteness
+	- Additivity
+	- Homogenoity
+	- Symmetry
+
+- With every inner prodcut a norm is induced, 
+	- norm(x) = sqrt(innerproduct(x,x))
+
+- 
