@@ -14,7 +14,12 @@ Every Inner product needs to satisfy the following properties:
 5. Symmetry
 
 
-Part 3 Q3
+Part 3
+Q1
+
+![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/a1p3q3.jpg)
+
+Q3
 
 {% highlight ruby %}
 import numpy as np
@@ -34,3 +39,4 @@ Ey = - Ey
 ax.quiver(x,y,z,Ex,Ey)
 plt.show()
 {% endhighlight %}
+
