@@ -10,5 +10,5 @@ title: "Introduction to Neural Networks & Deep Learnings"
 <h2> Perceptrons </h2>
 - Perceptrons were developed in 1950s and 1960s by Frank Rosenblatt, inspired by earlier work by Warren McCulloch and Walter Pitts.
 - So how does a perceptron works? A perceptron takes several binary inputs, x<sub>1</sub>, x<sub>2</sub>,..., and produces a single biary output:
-![alt text](https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53)
+![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/perceptron.png)
 
