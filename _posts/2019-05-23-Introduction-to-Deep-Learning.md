@@ -36,3 +36,7 @@ title: "Introduction to Neural Networks & Deep Learnings"
 - In the Above network, the first column of perceptrons is makng three decisions, by weighting the input evidence.
 - The perceptrons in secound layer is making decisions at more complex and abstract levels then the perceptrons at the first layers.
 - and even more complex decisions can be made in the third layer, and similarly the perceptrons at higher levels can make more complex and abstract decisions then their previous layers.
+
+- Lets simplify the way we describe perceptrons, the codition  sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> > threshold is cumbersome, and we make two notational changes to simplyfy it. The first is to write the sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> as a dot product, w.x = sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> where w and x are vectors whose components are the weights and input respectively. The seocund is to change is to move the threshold to the other side of the inequality, and to replace it by what's known as the perceptron's bias, b = - threshold. Using the bias instead of threshold, the perceptron rule can be rewritten as :
+
+output = { 0 if w.x + b <= 0 and 1 if  w.x + b > 0 } (2)
