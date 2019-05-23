@@ -33,4 +33,6 @@ title: "Introduction to Neural Networks & Deep Learnings"
 - The percptron isn't a complete model of human decision-making! 
 - But a complex network of perceptron could make quie subtle decisions like this one 
 ![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/complexNN.png)
-- 
+- In the Above network, the first column of perceptrons is makng three decisions, by weighting the input evidence.
+- The perceptrons in secound layer is making decisions at more complex and abstract levels then the perceptrons at the first layers.
+- and even more complex decisions can be made in the third layer, and similarly the perceptrons at higher levels can make more complex and abstract decisions then their previous layers.
