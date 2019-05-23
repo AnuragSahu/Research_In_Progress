@@ -30,7 +30,7 @@ title: "Introduction to Neural Networks & Deep Learnings"
 		- The weather is good 
 		- Both the friend is willing to accompany you and Festival is near a public transport.
 	- Decreasing the threshold means you are more willing to go to the Festival.
-	- The percptron isn't a complete model of human decision-making! 
-    - But a complex network of perceptron could make quie subtle decisions like this one 
-    ![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/complexNN.png)
-    - 
+- The percptron isn't a complete model of human decision-making! 
+- But a complex network of perceptron could make quie subtle decisions like this one 
+![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/complexNN.png)
+- 
