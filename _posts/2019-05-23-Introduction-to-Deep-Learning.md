@@ -24,3 +24,6 @@ title: "Introduction to Neural Networks & Deep Learnings"
 		2. Does your boyfriend / Girlfriend want to accompany you?
 		3. Is the festival near public transit?(You don't own a car).
 	- We can represent these factors by corresponding binary variables x<sub>1</sub>, x<sub>2</sub>. x<sub>3</sub>. we have x<sub>1</sub> = 1 if the weather is good, x<sub>2</sub> = 1 if your boyfriend/Girlfriend is accompnying you, x<sub>3</sub> = 1, if the festival is near a public transport.
+	- Suppose that you adore cheese so much so that you are ready to sacrifise you boyfriend/girlfriend if he/she is unintrested and even if the festival is hard to reach, so one way to do this is w<sub>1</sub> = 6 and w<sub>2</sub> = 2, w<sub>3</sub> = 2, showing that weather matters to you a lot more than your friend and hardness to reach the fest.
+	- With these choices, the percptron implements the desired decision-making model, outputting 1 whenever the weather is good and 0 whenever the weater is bad. It makes no Difference if your friend wants to go or wheater the publc transit is nearby.
+	
