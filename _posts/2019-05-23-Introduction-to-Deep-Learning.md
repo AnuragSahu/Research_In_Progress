@@ -25,5 +25,12 @@ title: "Introduction to Neural Networks & Deep Learnings"
 		3. Is the festival near public transit?(You don't own a car).
 	- We can represent these factors by corresponding binary variables x<sub>1</sub>, x<sub>2</sub>. x<sub>3</sub>. we have x<sub>1</sub> = 1 if the weather is good, x<sub>2</sub> = 1 if your boyfriend/Girlfriend is accompnying you, x<sub>3</sub> = 1, if the festival is near a public transport.
 	- Suppose that you adore cheese so much so that you are ready to sacrifise you boyfriend/girlfriend if he/she is unintrested and even if the festival is hard to reach, so one way to do this is w<sub>1</sub> = 6 and w<sub>2</sub> = 2, w<sub>3</sub> = 2, showing that weather matters to you a lot more than your friend and hardness to reach the fest.
-	- With these choices, the percptron implements the desired decision-making model, outputting 1 whenever the weather is good and 0 whenever the weater is bad. It makes no Difference if your friend wants to go or wheater the publc transit is nearby.
-	
+	- With these choices, the percptron implements the desired decision-making model, outputting 1 whenever the weather is good and 0 whenever the weater is bad. It makes no Difference if your friend wants to go or wheater the public transit is nearby.
+	- By varying weights and the threshold we can get different models, For example if the threshold is 3 then perceptron would decide that you should go whenever:
+		- The weather is good 
+		- Both the friend is willing to accompany you and Festival is near a public transport.
+	- Decreasing the threshold means you are more willing to go to the Festival.
+	- The percptron isn't a complete model of human decision-making! 
+    - But a complex network of perceptron could make quie subtle decisions like this one 
+    ![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/complexNN.png)
+    - 
