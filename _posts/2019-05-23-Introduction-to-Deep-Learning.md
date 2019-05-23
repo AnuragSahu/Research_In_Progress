@@ -3,10 +3,8 @@ title: "Introduction to Neural Networks & Deep Learnings"
 ---
 
 *This is reffered from the Free Online Book (Michael A. Nielsen, "Neural Networks and Deep Learning")
-- It starts off with the problem of understanding the Visual Cortex System, And produces to solve the problem of Optical Character Recogition.
-- How a human would recognise the digit "9" it has a loop on the top and a vertical stroke in the bottom right, althouth this is difficult to code this approach, so how would you recogise it.
-- Neural networks take a different approcach, It take a large number of handwritten digits ("Popularly termed as training examples").
-- The state of the art Neural Networks can have an accuracy upto 99% which is better than humans.
+- It starts off with the problem of understanding the Visual Cortex System, And produces to solve the problem of Optical Character Recogition. How a human would recognise the digit "9" it has a loop on the top and a vertical stroke in the bottom right, althouth this is difficult to code this approach, so how would you recogise it. Neural networks take a different approcach, It take a large number of handwritten digits ("Popularly termed as training examples"). The state of the art Neural Networks can have an accuracy upto 99% which is better than humans.
+
 <h2> Perceptrons </h2>
 - Perceptrons were developed in 1950s and 1960s by Frank Rosenblatt, inspired by earlier work by Warren McCulloch and Walter Pitts.
 - So how does a perceptron works? A perceptron takes several binary inputs, x<sub>1</sub>, x<sub>2</sub>,..., and produces a single biary output:
@@ -18,3 +16,11 @@ title: "Introduction to Neural Networks & Deep Learnings"
 
 - More precise algebraic terms can be:
  outputs = { 0 if sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> <= threahold, 1 if sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> > threahold,  <b>(1)</b>
+
+- This is a very basic model, it can be intuitively thought like a device that makes decisions by weighing evidence.
+	- For example (A lame but realistic one though)
+	- Suppose the weekend is commingup and you've heard that there's going to ve a cheese festival in your city. You like cheese and are trying to decide whether or not to go to the festival. You might make your decision by weighing up three factors:
+		1. Is the weather good?
+		2. Does your boyfriend / Girlfriend want to accompany you?
+		3. Is the festival near public transit?(You don't own a car).
+	- We can represent these factors by corresponding binary variables x<sub>1</sub>, x<sub>2</sub>. x<sub>3</sub>. we have x<sub>1</sub> = 1 if the weather is good, x<sub>2</sub> = 1 if your boyfriend/Girlfriend is accompnying you, x<sub>3</sub> = 1, if the festival is near a public transport.
