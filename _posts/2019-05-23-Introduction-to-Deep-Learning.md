@@ -12,3 +12,9 @@ title: "Introduction to Neural Networks & Deep Learnings"
 - So how does a perceptron works? A perceptron takes several binary inputs, x<sub>1</sub>, x<sub>2</sub>,..., and produces a single biary output:
 ![alt text](https://raw.githubusercontent.com/AnuragSahu/Research_In_Progress/master/screenshots/perceptron.png)
 
+- The perceptron in the above example have 5 inputs and x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>,x<sub>4</sub>,x<sub>5</sub>. In general it could have more or less inputs.
+- Rosenblatt proposed a simple rule to compute the output the weights w<sub>1</sub>, w<sub>2</sub>,w<sub>3</sub>, w<sub>4</sub>, w<sub>5</sub>. real number expressing the importnace of the respective inputs to the output.
+- The neuron's output 0 or 1, is determined by wheater the weigthed sum /sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> is less than or greater than some threshold value.
+
+- More precise algebraic terms can be:
+ outputs = { 0 if sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> <= threahold, 1 if sum<sub>j</sub>w<sub>j</sub>x<sub>j</sub> > threahold,  <b>(1)</b>
