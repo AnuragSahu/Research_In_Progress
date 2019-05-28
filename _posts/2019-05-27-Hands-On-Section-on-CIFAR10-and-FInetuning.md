@@ -100,6 +100,7 @@ class Net(nn.Module):
 Now we have defined the network architecture
 we will now do some interesting stuff
 
+```sh
 {% highlight ruby %}
 #MAIN CELL
 
@@ -166,7 +167,7 @@ for epoch in range(nepochs):
     trainAcc.append((numCorr_train/totalTrainSamples)*100)
     trainLoss.append(running_loss_train/totalTrainSamples)
 {% endhighlight %}
-
+```
 
 
 {% highlight ruby %}
