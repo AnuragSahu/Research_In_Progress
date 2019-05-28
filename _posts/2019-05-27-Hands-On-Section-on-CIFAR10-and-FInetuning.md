@@ -36,6 +36,8 @@ testiter = iter(testloader)
 #images, labels = trainiter.next()
 {% endhighlight %}
 
+<i> We are now downloading the dataset into the our local machine and fitting them into the trainset and loader also defining the class names. </i>
+
 {% highlight ruby %}
 #Getting the dataset
 transform = transforms.Compose([transforms.ToTensor()])
@@ -47,8 +49,26 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=False, 
 
 classes = ('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 #LABELS 0,1,2,3,4,5,6,7,8,9
+{% endhighlight %}
+
+
+
+{% highlight ruby %}
 
 {% endhighlight %}
+
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+
 
 {% highlight ruby %}
 
