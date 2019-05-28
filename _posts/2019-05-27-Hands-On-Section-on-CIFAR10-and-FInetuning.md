@@ -36,6 +36,7 @@ testiter = iter(testloader)
 #images, labels = trainiter.next()
 {% endhighlight %}
 
+Getting the Dataset
 <i> We are now downloading the dataset into the our local machine and fitting them into the trainset and loader also defining the class names. </i>
 
 {% highlight ruby %}
@@ -51,14 +52,48 @@ classes = ('plane', 'car', 'bird', 'cat','deer', 'dog', 'frog', 'horse', 'ship',
 #LABELS 0,1,2,3,4,5,6,7,8,9
 {% endhighlight %}
 
-
+Done with dataset on downloading on the google server machine, now
+<i> Making the data set dimentions according to the numpy array and showing the first image in the array we have appended </i>
 
 {% highlight ruby %}
+#Analyzing one sample and display one particular image
+image, label = trainiter.next()
+print(type(image))
+print(image.size())
 
+img = image[0,:].numpy();
+img=np.transpose(img,(1,2,0))
+
+import matplotlib.pyplot as plt
+plt.imshow(img)
 {% endhighlight %}
 
-
+Now decalring the Network class, 
+- we define the network in a class.
+- In initiazation we always declare the FCs, Convultion Layers
+- And then Define the Forward for making the connections between the layers and also the activation functions and 
 {% highlight ruby %}
+# https://pytorch.org/docs/stable/nn.html?highlight=conv#torch.nn.Conv2d
+# inp -> c1(3,6,5) -> r -> p(2,2) -> c2(6,16,5) -> r -> p(2,2) -> fc1(120) -> fc2(84) ->fc3(10)
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.conv1 = nn.Conv2d(3, 6, 5)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(6, 16, 5)
+        self.fc1 = nn.Linear(16 * 5 * 5, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, 10)
+        
+
+    def forward(self, x):
+      x = self.pool(F.relu(self.conv1(x)))
+      x = self.pool(F.relu(self.conv2(x)))
+      x = x.view(-1, 16 * 5 * 5)
+      x = F.relu(self.fc1(x))
+      x = F.relu(self.fc2(x))
+      x = self.fc3(x)
+      return x
 
 {% endhighlight %}
 
