@@ -71,9 +71,9 @@ plt.imshow(img)
 Now decalring the Network class, 
 - we define the network in a class.
 - In initiazation we always declare the FCs, Convultion Layers
-- And then Define the Forward for making the connections between the layers and also the activation functions and 
+- And then Define the Forward for making the connections between the layers and also the activation functions
+- The fancy stuff can be found at their official Documentation https://pytorch.org/docs/stable/nn.html?highlight=conv#torch.nn.Conv2d
 {% highlight ruby %}
-# https://pytorch.org/docs/stable/nn.html?highlight=conv#torch.nn.Conv2d
 # inp -> c1(3,6,5) -> r -> p(2,2) -> c2(6,16,5) -> r -> p(2,2) -> fc1(120) -> fc2(84) ->fc3(10)
 class Net(nn.Module):
     def __init__(self):
