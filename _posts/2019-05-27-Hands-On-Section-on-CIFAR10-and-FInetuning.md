@@ -100,7 +100,6 @@ class Net(nn.Module):
 Now we have defined the network architecture
 we will now do some interesting stuff
 
-<comment> This code is not working will Update the working Code soon</comment>
 {% highlight ruby %}
 #MAIN CELL
 
