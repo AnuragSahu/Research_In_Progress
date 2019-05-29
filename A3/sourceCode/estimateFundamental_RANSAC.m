@@ -1,18 +1,6 @@
 
 function [F,best_sample] = estimateFundamental_RANSAC(matchedPoints_0, matchedPoints_1,distanceThreshold,numTrials)
-%ESTIMATEFUNDAMENTAL_RANSAC should do the same as estimateFundamentalMatrix
-% Input: point correspondences
-%  - matchedPoints_0(N,3): homogeneous coordinates of 2-D points in image 1
-%  - matchedPoints_1(N,3): homogeneous coordinates of 2-D points in image 2
-%  - distanceThreshold: distance to epipolar line to be inlier
-%  - numTrials: nbr of runs in ransac
-%
-% Output:
-%  - F(3,3) : fundamental matrix
-%  - best_sample: bool array: inlier or not
-%
 
-%change orientation
 matchedPoints_0 = [matchedPoints_0.Location ones(length(matchedPoints_0.Location),1)]';
 matchedPoints_1 = [matchedPoints_1.Location ones(length(matchedPoints_1.Location),1)]';
 
