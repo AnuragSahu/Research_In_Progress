@@ -22,3 +22,5 @@
 36|96.47|79.65
 38|97.2|78.2
 40|97.35|77.4
+
+ ![Loading Graph](./Graph_AlexNet_80Acc.png)
